@@ -32,7 +32,7 @@ dictionary((err, dict) => {
                     message.guild.channels.first().stopTyping();
                 }
             }, 3000);
-            console.log(message.author.name + " was an idiot and spelt " + word + " wrong. Was corrected to " + incorrect);
+            console.log(message.author.name + " made a small mistake " + word + " wrong. Was corrected to " + incorrect);
             done = true;
 		}
     });
